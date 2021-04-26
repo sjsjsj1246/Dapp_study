@@ -10,6 +10,12 @@
 - Solidity v0.5.16
 - Node v15.2.0
 
-## Index
+## Hello, World 컨트랙트
 
-- Hello, World 컨트랙트
+### 변동사항
+
+- 소스는 소스파일 참고
+- truffle 콘솔에서 이더리움 계정 확인
+  - web3.eth.accounts -> web3.eth.getAccounts()
+- 콘트랙트 참조하기 (인스턴스 만들기)
+  - var 인스턴스이름 = 콘트랙트이름.at(“콘트랙트 주소”) -> const 인스턴스이름 = await 콘트랙트이름.deployed()
