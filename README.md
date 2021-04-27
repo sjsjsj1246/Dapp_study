@@ -15,6 +15,8 @@
 ### 변동사항
 
 - 소스는 소스파일 참고
+  - HelloWorld.sol
+  - test_hello.js, test_hello2.js
 - truffle 콘솔에서 이더리움 계정 확인
   - web3.eth.accounts -> web3.eth.getAccounts()
 - 콘트랙트 참조하기 (인스턴스 만들기)
